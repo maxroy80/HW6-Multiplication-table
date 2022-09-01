@@ -1,0 +1,19 @@
+#table {
+    text-align: center;
+    -webkit-border-horizontal-spacing: 0;
+    -webkit-border-vertical-spacing: 0;
+}
+
+#table td {
+    border: 1px solid grey;
+    padding: 15px;
+    font-size: 20px;
+}
+
+#table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+#table tr:nth-child(even) {
+    background-color: #eee;
+}
